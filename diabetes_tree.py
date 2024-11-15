@@ -38,9 +38,3 @@ plt.figure(figsize=(15,10))
 tree.plot_tree(decision,filled=True)
 plt.show()
 
-from sklearn.model_selection import GridSearchCV
-param_grid={
-    'max_depth':[2,3,4,5],
-    'criterion':['gini','entropy']
-}
-grid_search
