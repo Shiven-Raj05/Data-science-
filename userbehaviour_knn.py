@@ -14,7 +14,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 
-
 data=pd.read_csv('/content/user_behavior_dataset.csv')
 print(data)
 
